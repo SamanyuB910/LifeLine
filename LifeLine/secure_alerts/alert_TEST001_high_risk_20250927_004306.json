@@ -1,0 +1,14 @@
+{
+  "id": "TEST001_high_risk_20250927_004306",
+  "patient_id": "TEST001",
+  "type": "high_risk",
+  "severity": "critical",
+  "message": "High overall risk score: 0.85",
+  "data": {
+    "risk_score": 0.85
+  },
+  "timestamp": "2025-09-27T00:43:06.952333",
+  "status": "active",
+  "acknowledged": false,
+  "escalated": false
+}

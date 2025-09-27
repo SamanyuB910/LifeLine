@@ -1,0 +1,17 @@
+{
+  "id": "TEST001_fall_risk_20250927_004306",
+  "patient_id": "TEST001",
+  "type": "fall_risk",
+  "severity": "critical",
+  "message": "Fall risk detected: head_tilt, rapid_movement",
+  "data": {
+    "risk_factors": [
+      "head_tilt",
+      "rapid_movement"
+    ]
+  },
+  "timestamp": "2025-09-27T00:43:06.952333",
+  "status": "active",
+  "acknowledged": false,
+  "escalated": false
+}

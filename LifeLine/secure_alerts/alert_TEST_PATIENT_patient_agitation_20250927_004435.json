@@ -1,0 +1,19 @@
+{
+  "id": "TEST_PATIENT_patient_agitation_20250927_004435",
+  "patient_id": "TEST_PATIENT",
+  "type": "patient_agitation",
+  "severity": "high",
+  "message": "Patient agitation detected: high level (sustained_anger, persistent_pain)",
+  "data": {
+    "agitated": true,
+    "agitation_level": "high",
+    "triggers": [
+      "sustained_anger",
+      "persistent_pain"
+    ]
+  },
+  "timestamp": "2025-09-27T00:44:35.513508",
+  "status": "active",
+  "acknowledged": false,
+  "escalated": false
+}

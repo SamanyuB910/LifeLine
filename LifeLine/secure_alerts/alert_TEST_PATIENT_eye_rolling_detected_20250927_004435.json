@@ -1,0 +1,16 @@
+{
+  "id": "TEST_PATIENT_eye_rolling_detected_20250927_004435",
+  "patient_id": "TEST_PATIENT",
+  "type": "eye_rolling_detected",
+  "severity": "critical",
+  "message": "Eye rolling detected (confidence: 0.80)",
+  "data": {
+    "eye_roll_detected": true,
+    "rolling_confidence": 0.8,
+    "sustained_abnormal_gaze": true
+  },
+  "timestamp": "2025-09-27T00:44:35.512095",
+  "status": "active",
+  "acknowledged": false,
+  "escalated": false
+}

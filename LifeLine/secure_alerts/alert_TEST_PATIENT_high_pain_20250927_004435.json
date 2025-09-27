@@ -1,0 +1,14 @@
+{
+  "id": "TEST_PATIENT_high_pain_20250927_004435",
+  "patient_id": "TEST_PATIENT",
+  "type": "high_pain",
+  "severity": "high",
+  "message": "Patient experiencing high pain level: 8/10",
+  "data": {
+    "pain_scale": 8
+  },
+  "timestamp": "2025-09-27T00:44:35.506412",
+  "status": "active",
+  "acknowledged": false,
+  "escalated": false
+}

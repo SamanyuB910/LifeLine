@@ -1,0 +1,14 @@
+{
+  "id": "TEST_PATIENT_high_heart_rate_20250927_004435",
+  "patient_id": "TEST_PATIENT",
+  "type": "high_heart_rate",
+  "severity": "high",
+  "message": "Elevated heart rate: 110 BPM",
+  "data": {
+    "heart_rate": 110
+  },
+  "timestamp": "2025-09-27T00:44:35.509554",
+  "status": "active",
+  "acknowledged": false,
+  "escalated": false
+}

@@ -1,0 +1,37 @@
+{
+  "model": {
+    "aspect_ratio": {
+      "threshold": 1.3686351054161952,
+      "fall_mean": 1.3495427100079749,
+      "normal_mean": 1.3877275008244156,
+      "higher_indicates_fall": false
+    },
+    "brightness": {
+      "threshold": 144.86423256323377,
+      "fall_mean": 144.52676682684194,
+      "normal_mean": 145.20169829962563,
+      "higher_indicates_fall": false
+    },
+    "contrast": {
+      "threshold": 58.77521077648596,
+      "fall_mean": 58.75806268257324,
+      "normal_mean": 58.79235887039869,
+      "higher_indicates_fall": false
+    },
+    "bottom_heavy": {
+      "threshold": 0.9295642228568363,
+      "fall_mean": 0.9880546909662568,
+      "normal_mean": 0.8710737547474158,
+      "higher_indicates_fall": true
+    },
+    "horizontal_edges": {
+      "threshold": 243.06,
+      "fall_mean": 195.76,
+      "normal_mean": 290.36,
+      "higher_indicates_fall": false
+    }
+  },
+  "training_date": "2025-09-27T02:34:11.664124",
+  "model_type": "simple_rule_based",
+  "version": "1.0"
+}
