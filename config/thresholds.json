@@ -1,0 +1,51 @@
+{
+    "vital_thresholds": {
+        "heart_rate": {
+            "critical_low": 40,
+            "low": 60,
+            "high": 100,
+            "critical_high": 140
+        },
+        "spo2": {
+            "critical_low": 90,
+            "low": 95
+        },
+        "respiratory_rate": {
+            "critical_low": 8,
+            "low": 12,
+            "high": 20,
+            "critical_high": 30
+        },
+        "blood_pressure_systolic": {
+            "critical_low": 90,
+            "low": 100,
+            "high": 140,
+            "critical_high": 180
+        },
+        "temperature": {
+            "critical_low": 95.0,
+            "low": 97.0,
+            "high": 99.5,
+            "critical_high": 104.0
+        }
+    },
+    "pain_detection": {
+        "brow_furrow_threshold": 0.7,
+        "eye_squeeze_threshold": 0.6,
+        "nasolabial_furrow_threshold": 0.5,
+        "mouth_strain_threshold": 0.6
+    },
+    "movement_thresholds": {
+        "still": 2.0,
+        "minimal": 5.0,
+        "normal": 15.0,
+        "restless": 30.0,
+        "seizure_threshold": 50.0
+    },
+    "alert_cooldowns": {
+        "movement": 30,
+        "pain": 60,
+        "vitals": 45,
+        "emotion": 120
+    }
+}

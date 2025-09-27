@@ -1,0 +1,38 @@
+{
+    "monitoring": {
+        "camera": {
+            "width": 1280,
+            "height": 720,
+            "fps": 30
+        },
+        "face_detection": {
+            "model_selection": 1,
+            "min_detection_confidence": 0.5
+        },
+        "face_mesh": {
+            "max_num_faces": 1,
+            "refine_landmarks": true,
+            "min_detection_confidence": 0.5,
+            "min_tracking_confidence": 0.5
+        }
+    },
+    "analysis": {
+        "emotion_buffer_size": 300,
+        "movement_buffer_size": 60,
+        "vital_buffer_size": 1440,
+        "analysis_fps": 10,
+        "risk_score_update_interval": 5
+    },
+    "display": {
+        "show_face_mesh": true,
+        "show_pain_score": true,
+        "show_vitals": true,
+        "show_alerts": true
+    },
+    "storage": {
+        "save_snapshots": true,
+        "snapshot_interval": 300,
+        "log_level": "INFO",
+        "data_retention_days": 30
+    }
+}
