@@ -6,3 +6,6 @@ pandas
 numpy
 pillow
 matplotlib
+plotly
+# torch is optional for heavier ML models; install manually if needed (platform-specific wheel)
+# torch
