@@ -141,53 +141,5 @@ class Prediction:
             abnormal.append(f"Temp: {self.temperature}°F")
         return abnormal
 
-@dataclass
-class PatientProfile:
-    """Comprehensive patient information"""
-    patient_id: str
-    name: str
-    age: int
-    gender: str
-    room: str
-    admission_date: datetime
-    primary_diagnosis: str
-    comorbidities: List[str]
-    medications: List[str]
-    allergies: List[str]
-    emergency_contact: str
-    attending_physician: str
-    nurse_assigned: str
-    
-    def get_risk_factors(self) -> List[str]:
-        """Identify risk factors based on patient profile"""
-        risks = []
-        if self.age > 65:
-            risks.append("Advanced age")
-        if "Diabetes" in self.comorbidities:
-            risks.append("Diabetic complications")
-        if "Cardiac" in self.primary_diagnosis or any("cardiac" in c.lower() for c in self.comorbidities):
-            risks.append("Cardiac risk")
-        return risks
 
-@dataclass
-class AnalysisResult:
-    """Comprehensive analysis result from monitoring"""
-    timestamp: datetime
-    face_detected: bool
-    emotion_state: Optional[EmotionState]
-    pain_score: float
-    vitals: Optional[VitalSigns]
-    movement_data: Optional[Dict]
-    insights: List[Dict]
-    alerts: List[Dict]
-    risk_score: int = 0
-    risk_factors: Dict[str, float] = None
 
-    def is_critical(self) -> bool:
-        """Check if the current state requires immediate attention"""
-        return (
-            self.risk_score > 80 or
-            (self.vitals and self.vitals.is_critical()) or
-            self.pain_score > 8 or
-            (self.emotion_state in [EmotionState.SEVERE_DISTRESS, EmotionState.AGITATED])
-        )

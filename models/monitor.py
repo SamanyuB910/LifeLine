@@ -19,8 +19,10 @@ from .data_models import (
     EmotionState,
     VitalSigns,
     PatientProfile,
-    AnalysisResult
+    AnalysisResult,
+    AnalyticsResult
 )
+from .analytics import HealthAnalytics
 from .analytics import HealthAnalytics
 from ..utils.medical_utils import (
     calculate_facial_pain_features,
