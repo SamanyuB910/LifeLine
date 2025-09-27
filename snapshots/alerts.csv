@@ -1,0 +1,8 @@
+timestamp,alert_type,message,severity,status,duration
+2025-09-02 20:56:04,no_face_detected,Patient not visible in camera frame,high,ongoing,0
+2025-09-02 20:55:19,agitation_detected,Patient showing signs of agitation (sustained angry expression),medium,ongoing,45
+2025-09-02 20:54:49,movement_alert,Sudden movement detected: 45.2px displacement,low,resolved,12
+2025-09-02 20:54:34,no_face_detected,Patient not visible for 3.2 seconds,high,resolved,8
+2025-09-02 20:51:04,agitation_detected,Patient showing signs of agitation (consecutive sad emotions),medium,previous,25
+2025-09-02 20:48:04,movement_alert,Significant head movement detected,low,previous,5
+2025-09-02 20:44:04,no_face_detected,Patient not visible for 15.1 seconds,high,previous,15
