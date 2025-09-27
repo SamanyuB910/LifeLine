@@ -127,19 +127,7 @@ class Prediction:
     contributing_factors: List[str]
     risk_level: str
     timestamp: datetime = field(default_factory=datetime.now)
-        """Get list of abnormal vital signs"""
-        abnormal = []
-        if self.heart_rate < 60 or self.heart_rate > 100:
-            abnormal.append(f"HR: {self.heart_rate}")
-        if self.spo2 < 95:
-            abnormal.append(f"SpO2: {self.spo2}%")
-        if self.respiratory_rate < 12 or self.respiratory_rate > 20:
-            abnormal.append(f"RR: {self.respiratory_rate}")
-        if self.blood_pressure_systolic < 100 or self.blood_pressure_systolic > 140:
-            abnormal.append(f"BP: {self.blood_pressure_systolic}/{self.blood_pressure_diastolic}")
-        if self.temperature < 97 or self.temperature > 99.5:
-            abnormal.append(f"Temp: {self.temperature}°F")
-        return abnormal
+
 
 
 

@@ -7,8 +7,14 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Tuple
-from sklearn.ensemble import IsolationForest
-from sklearn.preprocessing import StandardScaler
+try:
+    from sklearn.ensemble import IsolationForest
+    from sklearn.preprocessing import StandardScaler
+    SKLEARN_AVAILABLE = True
+except Exception:
+    IsolationForest = None
+    StandardScaler = None
+    SKLEARN_AVAILABLE = False
 import joblib
 from pathlib import Path
 import json
@@ -33,7 +39,8 @@ class HealthAnalytics:
     
     def _init_analytics(self):
         """Initialize analytics components and thresholds"""
-        self.scaler = StandardScaler()
+        # Use scaler if available, otherwise use a simple placeholder
+        self.scaler = StandardScaler() if SKLEARN_AVAILABLE else None
         self.analysis_window = {
             'short_term': timedelta(minutes=15),
             'medium_term': timedelta(hours=1),
@@ -51,6 +58,11 @@ class HealthAnalytics:
         """Load or initialize machine learning models"""
         model_path = self.data_dir / 'anomaly_detector.joblib'
         
+        if not SKLEARN_AVAILABLE:
+            self.anomaly_detector = None
+            logger.warning("scikit-learn not available: anomaly detection disabled")
+            return
+
         if model_path.exists():
             try:
                 self.anomaly_detector = joblib.load(model_path)
@@ -63,6 +75,10 @@ class HealthAnalytics:
     
     def _init_models(self):
         """Initialize new machine learning models"""
+        if not SKLEARN_AVAILABLE:
+            self.anomaly_detector = None
+            return
+
         self.anomaly_detector = IsolationForest(
             contamination=0.1,
             random_state=42,
@@ -167,7 +183,10 @@ class HealthAnalytics:
         """Detect anomalies in monitoring data"""
         if len(df) < 10:  # Need minimum data points
             return []
-            
+        
+        if not SKLEARN_AVAILABLE or self.anomaly_detector is None:
+            logger.debug("Anomaly detection skipped because scikit-learn is not available or model is not initialized")
+            return []
         try:
             # Prepare features
             features = df[['risk_score', 'pain_score']].fillna(0)
