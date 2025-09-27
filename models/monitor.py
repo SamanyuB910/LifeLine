@@ -21,6 +21,7 @@ from .data_models import (
     PatientProfile,
     AnalysisResult
 )
+from .analytics import HealthAnalytics
 from ..utils.medical_utils import (
     calculate_facial_pain_features,
     calculate_glasgow_coma_score,
@@ -62,6 +63,10 @@ class MedicalGradeMonitor:
         self.movement_buffer = deque(maxlen=buffer_sizes['movement_buffer_size'])
         self.vital_buffer = deque(maxlen=buffer_sizes['vital_buffer_size'])
         self.alert_queue = queue.PriorityQueue()
+        self.analysis_buffer = deque(maxlen=100)  # Store recent analysis results
+        
+        # Initialize analytics
+        self.analytics = HealthAnalytics()
         
         # State tracking
         self.pain_score = 0
@@ -207,13 +212,29 @@ class MedicalGradeMonitor:
                 analysis.risk_factors = risk_factors
                 self.last_risk_update = datetime.now()
             
-            # Generate medical insights
-            insights = self._generate_insights(analysis)
-            analysis.insights = insights
+            # Store analysis result
+            self.analysis_buffer.append(analysis)
+            
+            # Run analytics
+            analytics_results = self.analytics.analyze_trends(
+                self.patient,
+                list(self.analysis_buffer)
+            )
+            
+            # Update analysis with analytics insights
+            analysis.analytics = analytics_results
+            
+            # Generate medical insights (combine monitor and analytics insights)
+            monitor_insights = self._generate_insights(analysis)
+            analytics_insights = analytics_results.get('insights', [])
+            analysis.insights = monitor_insights + analytics_insights
             
             # Generate alerts if needed
             alerts = self._check_alert_conditions(analysis)
             analysis.alerts = alerts
+            
+            # Save for historical analysis
+            self.analytics.save_analysis_result(analysis)
             
             # Draw annotations
             frame = self._draw_medical_overlay(frame, bbox, analysis)

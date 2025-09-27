@@ -3,9 +3,9 @@ LifeLine Pro - Enhanced Data Models
 Core data structures for medical monitoring
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from enum import Enum
 
 class AlertSeverity(Enum):
@@ -25,6 +25,14 @@ class EmotionState(Enum):
     SEVERE_DISTRESS = "severe_distress"
     AGITATED = "agitated"
     UNRESPONSIVE = "unresponsive"
+
+class TrendDirection(Enum):
+    """Trend directions for analytics"""
+    IMPROVING = "improving"
+    STABLE = "stable"
+    DETERIORATING = "deteriorating"
+    CRITICAL = "critical"
+    UNKNOWN = "unknown"
 
 @dataclass
 class VitalSigns:
@@ -48,6 +56,77 @@ class VitalSigns:
         )
     
     def get_abnormal_vitals(self) -> List[str]:
+        """Return list of abnormal vital signs"""
+        abnormal = []
+        if self.heart_rate < 60 or self.heart_rate > 100:
+            abnormal.append("heart_rate")
+        if self.spo2 < 95:
+            abnormal.append("spo2")
+        if self.respiratory_rate < 12 or self.respiratory_rate > 20:
+            abnormal.append("respiratory_rate")
+        if (self.blood_pressure_systolic < 100 or 
+            self.blood_pressure_systolic > 140):
+            abnormal.append("blood_pressure")
+        if self.temperature < 97 or self.temperature > 99:
+            abnormal.append("temperature")
+        return abnormal
+
+@dataclass
+class PatientProfile:
+    """Enhanced patient profile with medical history"""
+    patient_id: str
+    name: str
+    room: str
+    age: int
+    medical_history: List[str]
+    monitoring_protocol: str
+    admission_date: datetime = field(default_factory=datetime.now)
+    discharge_date: Optional[datetime] = None
+    allergies: List[str] = field(default_factory=list)
+    medications: List[str] = field(default_factory=list)
+    primary_diagnosis: Optional[str] = None
+    secondary_diagnoses: List[str] = field(default_factory=list)
+    care_notes: List[Dict] = field(default_factory=list)
+
+@dataclass
+class AnalysisResult:
+    """Comprehensive analysis result with analytics data"""
+    timestamp: datetime
+    face_detected: bool
+    emotion_state: Optional[EmotionState]
+    pain_score: float
+    vitals: Optional[VitalSigns]
+    movement_data: Optional[Dict]
+    insights: List[Dict]
+    alerts: List[Dict]
+    risk_score: int
+    risk_factors: Dict = field(default_factory=dict)
+    analytics: Dict[str, Any] = field(default_factory=dict)  # Analytics results
+    trends: Dict[str, TrendDirection] = field(default_factory=dict)
+    predictions: Dict[str, Any] = field(default_factory=dict)
+
+@dataclass
+class AnalyticsTrend:
+    """Analytics trend data"""
+    metric: str
+    direction: TrendDirection
+    magnitude: float
+    timeframe: str
+    start_value: float
+    end_value: float
+    confidence: float
+    insights: List[Dict] = field(default_factory=list)
+
+@dataclass
+class Prediction:
+    """Predictive analytics result"""
+    metric: str
+    predicted_value: float
+    confidence: float
+    timeframe: str
+    contributing_factors: List[str]
+    risk_level: str
+    timestamp: datetime = field(default_factory=datetime.now)
         """Get list of abnormal vital signs"""
         abnormal = []
         if self.heart_rate < 60 or self.heart_rate > 100:
