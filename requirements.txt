@@ -6,3 +6,6 @@ pandas
 numpy
 pillow
 matplotlib
+flask
+flask-socketio
+flask-cors
