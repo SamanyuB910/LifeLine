@@ -1,8 +1,234 @@
 timestamp,alert_type,message,severity,status,duration
-2025-09-02 20:56:04,no_face_detected,Patient not visible in camera frame,high,ongoing,0
+2025-09-02 20:56:04,no_face_detected,Patient not visible in camera frame,high,resolved,2185328
 2025-09-02 20:55:19,agitation_detected,Patient showing signs of agitation (sustained angry expression),medium,ongoing,45
 2025-09-02 20:54:49,movement_alert,Sudden movement detected: 45.2px displacement,low,resolved,12
 2025-09-02 20:54:34,no_face_detected,Patient not visible for 3.2 seconds,high,resolved,8
 2025-09-02 20:51:04,agitation_detected,Patient showing signs of agitation (consecutive sad emotions),medium,previous,25
 2025-09-02 20:48:04,movement_alert,Significant head movement detected,low,previous,5
 2025-09-02 20:44:04,no_face_detected,Patient not visible for 15.1 seconds,high,previous,15
+2025-09-28 03:58:13,sudden_movement,Sudden movement detected: 100.8px displacement,medium,ongoing,0
+2025-09-28 03:58:13,sudden_movement,Sudden movement detected: 99.0px displacement,medium,ongoing,0
+2025-09-28 03:58:16,sudden_movement,Sudden movement detected: 106.8px displacement,medium,ongoing,0
+2025-09-28 03:58:16,sudden_movement,Sudden movement detected: 108.9px displacement,medium,ongoing,0
+2025-09-28 03:58:16,sudden_movement,Sudden movement detected: 108.9px displacement,medium,ongoing,0
+2025-09-28 03:58:18,sudden_movement,Sudden movement detected: 112.4px displacement,medium,ongoing,0
+2025-09-28 03:58:18,sudden_movement,Sudden movement detected: 110.3px displacement,medium,ongoing,0
+2025-09-28 03:58:18,sudden_movement,Sudden movement detected: 110.3px displacement,medium,ongoing,0
+2025-09-28 03:58:19,sudden_movement,Sudden movement detected: 109.6px displacement,medium,ongoing,0
+2025-09-28 03:58:20,sudden_movement,Sudden movement detected: 112.4px displacement,medium,ongoing,0
+2025-09-28 03:58:21,sudden_movement,Sudden movement detected: 111.1px displacement,medium,ongoing,0
+2025-09-28 03:58:21,sudden_movement,Sudden movement detected: 111.7px displacement,medium,ongoing,0
+2025-09-28 03:58:22,sudden_movement,Sudden movement detected: 101.2px displacement,medium,ongoing,0
+2025-09-28 03:58:23,sudden_movement,Sudden movement detected: 104.4px displacement,medium,ongoing,0
+2025-09-28 03:58:23,sudden_movement,Sudden movement detected: 104.4px displacement,medium,ongoing,0
+2025-09-28 03:58:23,sudden_movement,Sudden movement detected: 103.2px displacement,medium,ongoing,0
+2025-09-28 03:58:23,sudden_movement,Sudden movement detected: 103.8px displacement,medium,ongoing,0
+2025-09-28 03:58:24,sudden_movement,Sudden movement detected: 111.0px displacement,medium,ongoing,0
+2025-09-28 03:58:25,sudden_movement,Sudden movement detected: 95.5px displacement,medium,ongoing,0
+2025-09-28 03:58:39,sudden_movement,Sudden movement detected: 188.5px displacement,medium,ongoing,0
+2025-09-28 03:58:39,sudden_movement,Sudden movement detected: 186.3px displacement,medium,ongoing,0
+2025-09-28 03:58:40,sudden_movement,Sudden movement detected: 198.7px displacement,medium,ongoing,0
+2025-09-28 03:58:40,sudden_movement,Sudden movement detected: 200.9px displacement,medium,ongoing,0
+2025-09-28 03:58:44,sudden_movement,Sudden movement detected: 174.0px displacement,medium,ongoing,0
+2025-09-28 03:58:45,sudden_movement,Sudden movement detected: 471.0px displacement,medium,ongoing,0
+2025-09-28 03:58:46,sudden_movement,Sudden movement detected: 488.7px displacement,medium,ongoing,0
+2025-09-28 03:58:48,sudden_movement,Sudden movement detected: 464.0px displacement,medium,ongoing,0
+2025-09-28 03:58:48,sudden_movement,Sudden movement detected: 468.8px displacement,medium,ongoing,0
+2025-09-28 03:58:49,sudden_movement,Sudden movement detected: 484.5px displacement,medium,ongoing,0
+2025-09-28 03:58:49,sudden_movement,Sudden movement detected: 477.2px displacement,medium,ongoing,0
+2025-09-28 03:58:49,sudden_movement,Sudden movement detected: 477.6px displacement,medium,ongoing,0
+2025-09-28 03:58:49,sudden_movement,Sudden movement detected: 474.7px displacement,medium,ongoing,0
+2025-09-28 03:58:50,sudden_movement,Sudden movement detected: 437.7px displacement,medium,ongoing,0
+2025-09-28 03:58:50,sudden_movement,Sudden movement detected: 439.9px displacement,medium,ongoing,0
+2025-09-28 03:58:50,sudden_movement,Sudden movement detected: 168.6px displacement,medium,ongoing,0
+2025-09-28 03:58:50,sudden_movement,Sudden movement detected: 166.7px displacement,medium,ongoing,0
+2025-09-28 03:58:50,sudden_movement,Sudden movement detected: 172.7px displacement,medium,ongoing,0
+2025-09-28 03:58:51,sudden_movement,Sudden movement detected: 344.5px displacement,medium,ongoing,0
+2025-09-28 03:58:51,sudden_movement,Sudden movement detected: 472.6px displacement,medium,ongoing,0
+2025-09-28 03:58:51,sudden_movement,Sudden movement detected: 170.4px displacement,medium,ongoing,0
+2025-09-28 03:58:51,sudden_movement,Sudden movement detected: 169.5px displacement,medium,ongoing,0
+2025-09-28 03:58:51,sudden_movement,Sudden movement detected: 169.5px displacement,medium,ongoing,0
+2025-09-28 03:58:52,sudden_movement,Sudden movement detected: 190.7px displacement,medium,ongoing,0
+2025-09-28 03:58:52,sudden_movement,Sudden movement detected: 195.2px displacement,medium,ongoing,0
+2025-09-28 03:58:52,sudden_movement,Sudden movement detected: 343.0px displacement,medium,ongoing,0
+2025-09-28 03:58:52,sudden_movement,Sudden movement detected: 344.6px displacement,medium,ongoing,0
+2025-09-28 03:58:52,sudden_movement,Sudden movement detected: 170.2px displacement,medium,ongoing,0
+2025-09-28 03:58:53,sudden_movement,Sudden movement detected: 467.8px displacement,medium,ongoing,0
+2025-09-28 03:58:53,sudden_movement,Sudden movement detected: 468.9px displacement,medium,ongoing,0
+2025-09-28 03:58:54,sudden_movement,Sudden movement detected: 187.6px displacement,medium,ongoing,0
+2025-09-28 03:58:54,sudden_movement,Sudden movement detected: 187.6px displacement,medium,ongoing,0
+2025-09-28 03:58:54,sudden_movement,Sudden movement detected: 182.2px displacement,medium,ongoing,0
+2025-09-28 03:58:54,sudden_movement,Sudden movement detected: 180.9px displacement,medium,ongoing,0
+2025-09-28 03:58:55,sudden_movement,Sudden movement detected: 202.9px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 309.5px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 308.8px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 191.3px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 189.8px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 182.8px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 194.2px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 310.0px displacement,medium,ongoing,0
+2025-09-28 03:58:59,sudden_movement,Sudden movement detected: 310.5px displacement,medium,ongoing,0
+2025-09-28 03:59:00,sudden_movement,Sudden movement detected: 309.1px displacement,medium,ongoing,0
+2025-09-28 03:59:00,sudden_movement,Sudden movement detected: 439.9px displacement,medium,ongoing,0
+2025-09-28 03:59:00,sudden_movement,Sudden movement detected: 188.8px displacement,medium,ongoing,0
+2025-09-28 03:59:01,sudden_movement,Sudden movement detected: 312.1px displacement,medium,ongoing,0
+2025-09-28 03:59:01,sudden_movement,Sudden movement detected: 309.2px displacement,medium,ongoing,0
+2025-09-28 03:59:01,sudden_movement,Sudden movement detected: 308.8px displacement,medium,ongoing,0
+2025-09-28 03:59:01,sudden_movement,Sudden movement detected: 308.1px displacement,medium,ongoing,0
+2025-09-28 03:59:01,sudden_movement,Sudden movement detected: 184.4px displacement,medium,ongoing,0
+2025-09-28 03:59:01,sudden_movement,Sudden movement detected: 184.0px displacement,medium,ongoing,0
+2025-09-28 03:59:02,sudden_movement,Sudden movement detected: 184.4px displacement,medium,ongoing,0
+2025-09-28 03:59:02,sudden_movement,Sudden movement detected: 183.7px displacement,medium,ongoing,0
+2025-09-28 03:59:02,sudden_movement,Sudden movement detected: 305.9px displacement,medium,ongoing,0
+2025-09-28 03:59:03,sudden_movement,Sudden movement detected: 310.6px displacement,medium,ongoing,0
+2025-09-28 03:59:03,sudden_movement,Sudden movement detected: 179.9px displacement,medium,ongoing,0
+2025-09-28 03:59:04,sudden_movement,Sudden movement detected: 509.8px displacement,medium,ongoing,0
+2025-09-28 03:59:06,sudden_movement,Sudden movement detected: 493.1px displacement,medium,ongoing,0
+2025-09-28 03:59:06,sudden_movement,Sudden movement detected: 176.1px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 264.9px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 175.7px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 154.8px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 240.1px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 213.6px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 227.1px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 206.2px displacement,medium,ongoing,0
+2025-09-28 03:59:07,sudden_movement,Sudden movement detected: 213.0px displacement,medium,ongoing,0
+2025-09-28 03:59:08,sudden_movement,Sudden movement detected: 120.9px displacement,medium,ongoing,0
+2025-09-28 03:59:09,sudden_movement,Sudden movement detected: 80.9px displacement,medium,ongoing,0
+2025-09-28 03:59:09,sudden_movement,Sudden movement detected: 82.3px displacement,medium,ongoing,0
+2025-09-28 03:59:09,sudden_movement,Sudden movement detected: 96.6px displacement,medium,ongoing,0
+2025-09-28 03:59:14,sudden_movement,Sudden movement detected: 172.2px displacement,medium,ongoing,0
+2025-09-28 03:59:15,sudden_movement,Sudden movement detected: 171.6px displacement,medium,ongoing,0
+2025-09-28 03:59:16,sudden_movement,Sudden movement detected: 170.5px displacement,medium,ongoing,0
+2025-09-28 03:59:16,sudden_movement,Sudden movement detected: 172.0px displacement,medium,ongoing,0
+2025-09-28 03:59:16,sudden_movement,Sudden movement detected: 155.1px displacement,medium,ongoing,0
+2025-09-28 03:59:16,sudden_movement,Sudden movement detected: 154.2px displacement,medium,ongoing,0
+2025-09-28 03:59:31,no_face_detected,No face detected for 3.0 seconds,high,resolved,7
+2025-09-28 03:59:34,no_face_detected,No face detected for 3.0 seconds,high,resolved,4
+2025-09-28 03:59:37,no_face_detected,No face detected for 3.0 seconds,high,resolved,1
+2025-09-28 03:59:40,sudden_movement,Sudden movement detected: 185.0px displacement,medium,ongoing,0
+2025-09-28 03:59:41,sudden_movement,Sudden movement detected: 177.4px displacement,medium,ongoing,0
+2025-09-28 03:59:41,sudden_movement,Sudden movement detected: 161.6px displacement,medium,ongoing,0
+2025-09-28 03:59:41,sudden_movement,Sudden movement detected: 162.6px displacement,medium,ongoing,0
+2025-09-28 03:59:42,sudden_movement,Sudden movement detected: 153.6px displacement,medium,ongoing,0
+2025-09-28 03:59:42,sudden_movement,Sudden movement detected: 153.3px displacement,medium,ongoing,0
+2025-09-28 03:59:43,sudden_movement,Sudden movement detected: 231.2px displacement,medium,ongoing,0
+2025-09-28 03:59:43,sudden_movement,Sudden movement detected: 231.8px displacement,medium,ongoing,0
+2025-09-28 03:59:44,sudden_movement,Sudden movement detected: 234.1px displacement,medium,ongoing,0
+2025-09-28 03:59:44,sudden_movement,Sudden movement detected: 234.7px displacement,medium,ongoing,0
+2025-09-28 03:59:44,sudden_movement,Sudden movement detected: 235.6px displacement,medium,ongoing,0
+2025-09-28 03:59:44,sudden_movement,Sudden movement detected: 236.2px displacement,medium,ongoing,0
+2025-09-28 03:59:45,sudden_movement,Sudden movement detected: 235.3px displacement,medium,ongoing,0
+2025-09-28 03:59:45,sudden_movement,Sudden movement detected: 239.8px displacement,medium,ongoing,0
+2025-09-28 03:59:45,sudden_movement,Sudden movement detected: 240.8px displacement,medium,ongoing,0
+2025-09-28 03:59:46,sudden_movement,Sudden movement detected: 233.2px displacement,medium,ongoing,0
+2025-09-28 03:59:46,sudden_movement,Sudden movement detected: 233.5px displacement,medium,ongoing,0
+2025-09-28 03:59:46,sudden_movement,Sudden movement detected: 231.0px displacement,medium,ongoing,0
+2025-09-28 03:59:46,sudden_movement,Sudden movement detected: 232.3px displacement,medium,ongoing,0
+2025-09-28 03:59:47,sudden_movement,Sudden movement detected: 234.2px displacement,medium,ongoing,0
+2025-09-28 03:59:47,sudden_movement,Sudden movement detected: 232.8px displacement,medium,ongoing,0
+2025-09-28 03:59:47,sudden_movement,Sudden movement detected: 256.6px displacement,medium,ongoing,0
+2025-09-28 03:59:47,sudden_movement,Sudden movement detected: 255.2px displacement,medium,ongoing,0
+2025-09-28 03:59:51,no_face_detected,No face detected for 3.0 seconds,high,resolved,1
+2025-09-28 03:59:52,sudden_movement,Sudden movement detected: 374.5px displacement,medium,ongoing,0
+2025-09-28 03:59:52,sudden_movement,Sudden movement detected: 374.2px displacement,medium,ongoing,0
+2025-09-28 04:00:03,sudden_movement,Sudden movement detected: 148.5px displacement,medium,ongoing,0
+2025-09-28 04:00:03,sudden_movement,Sudden movement detected: 149.5px displacement,medium,ongoing,0
+2025-09-28 04:00:06,sudden_movement,Sudden movement detected: 311.3px displacement,medium,ongoing,0
+2025-09-28 04:00:11,no_face_detected,No face detected for 3.0 seconds,high,resolved,0
+2025-09-28 04:00:11,sudden_movement,Sudden movement detected: 149.8px displacement,medium,ongoing,0
+2025-09-28 04:00:13,sudden_movement,Sudden movement detected: 77.0px displacement,medium,ongoing,0
+2025-09-28 04:00:13,sudden_movement,Sudden movement detected: 73.9px displacement,medium,ongoing,0
+2025-09-28 04:00:19,sudden_movement,Sudden movement detected: 64.8px displacement,medium,ongoing,0
+2025-09-28 04:00:19,sudden_movement,Sudden movement detected: 120.2px displacement,medium,ongoing,0
+2025-09-28 04:00:52,no_face_detected,No face detected for 3.0 seconds,high,resolved,0
+2025-09-28 04:01:24,sudden_movement,Sudden movement detected: 193.2px displacement,medium,ongoing,0
+2025-09-28 04:01:25,sudden_movement,Sudden movement detected: 378.2px displacement,medium,ongoing,0
+2025-09-28 04:01:27,sudden_movement,Sudden movement detected: 397.0px displacement,medium,ongoing,0
+2025-09-28 04:01:27,sudden_movement,Sudden movement detected: 380.8px displacement,medium,ongoing,0
+2025-09-28 04:01:28,sudden_movement,Sudden movement detected: 424.4px displacement,medium,ongoing,0
+2025-09-28 04:01:29,sudden_movement,Sudden movement detected: 128.2px displacement,medium,ongoing,0
+2025-09-28 04:01:30,sudden_movement,Sudden movement detected: 124.8px displacement,medium,ongoing,0
+2025-09-28 04:01:33,sudden_movement,Sudden movement detected: 208.4px displacement,medium,ongoing,0
+2025-09-28 04:01:35,sudden_movement,Sudden movement detected: 172.0px displacement,medium,ongoing,0
+2025-09-28 04:01:37,sudden_movement,Sudden movement detected: 144.1px displacement,medium,ongoing,0
+2025-09-28 04:01:38,sudden_movement,Sudden movement detected: 158.5px displacement,medium,ongoing,0
+2025-09-28 04:01:38,sudden_movement,Sudden movement detected: 148.1px displacement,medium,ongoing,0
+2025-09-28 04:02:03,sudden_movement,Sudden movement detected: 111.2px displacement,medium,ongoing,0
+2025-09-28 04:02:03,sudden_movement,Sudden movement detected: 109.6px displacement,medium,ongoing,0
+2025-09-28 04:02:24,sudden_movement,Sudden movement detected: 69.1px displacement,medium,ongoing,0
+2025-09-28 04:02:26,sudden_movement,Sudden movement detected: 232.4px displacement,medium,ongoing,0
+2025-09-28 04:02:27,sudden_movement,Sudden movement detected: 266.2px displacement,medium,ongoing,0
+2025-09-28 04:02:30,no_face_detected,No face detected for 3.0 seconds,high,resolved,1
+2025-09-28 04:02:31,sudden_movement,Sudden movement detected: 95.3px displacement,medium,ongoing,0
+2025-09-28 04:02:35,no_face_detected,No face detected for 3.0 seconds,high,resolved,0
+2025-09-28 04:02:38,no_face_detected,No face detected for 3.0 seconds,high,resolved,1
+2025-09-28 04:02:39,sudden_movement,Sudden movement detected: 143.4px displacement,medium,ongoing,0
+2025-09-28 04:02:40,sudden_movement,Sudden movement detected: 159.1px displacement,medium,ongoing,0
+2025-09-28 04:02:40,sudden_movement,Sudden movement detected: 159.2px displacement,medium,ongoing,0
+2025-09-28 04:02:44,no_face_detected,No face detected for 3.0 seconds,high,resolved,6
+2025-09-28 04:02:47,no_face_detected,No face detected for 3.0 seconds,high,resolved,3
+2025-09-28 04:02:51,sudden_movement,Sudden movement detected: 82.2px displacement,medium,ongoing,0
+2025-09-28 04:02:51,sudden_movement,Sudden movement detected: 124.5px displacement,medium,ongoing,0
+2025-09-28 04:02:53,sudden_movement,Sudden movement detected: 93.5px displacement,medium,ongoing,0
+2025-09-28 04:02:55,sudden_movement,Sudden movement detected: 179.7px displacement,medium,ongoing,0
+2025-09-28 04:02:55,sudden_movement,Sudden movement detected: 186.1px displacement,medium,ongoing,0
+2025-09-28 04:02:56,sudden_movement,Sudden movement detected: 187.0px displacement,medium,ongoing,0
+2025-09-28 04:02:56,sudden_movement,Sudden movement detected: 179.8px displacement,medium,ongoing,0
+2025-09-28 04:02:59,no_face_detected,No face detected for 3.0 seconds,high,resolved,1
+2025-09-28 04:03:04,no_face_detected,No face detected for 3.0 seconds,high,resolved,1
+2025-09-28 04:03:08,no_face_detected,No face detected for 3.0 seconds,high,resolved,5
+2025-09-28 04:03:11,no_face_detected,No face detected for 3.0 seconds,high,resolved,2
+2025-09-28 04:03:23,no_face_detected,No face detected for 3.0 seconds,high,resolved,2
+2025-09-28 04:03:25,sudden_movement,Sudden movement detected: 95.5px displacement,medium,ongoing,0
+2025-09-28 04:03:30,sudden_movement,Sudden movement detected: 155.1px displacement,medium,ongoing,0
+2025-09-28 04:03:30,sudden_movement,Sudden movement detected: 187.0px displacement,medium,ongoing,0
+2025-09-28 04:03:32,sudden_movement,Sudden movement detected: 146.4px displacement,medium,ongoing,0
+2025-09-28 04:03:35,sudden_movement,Sudden movement detected: 98.0px displacement,medium,ongoing,0
+2025-09-28 04:03:37,sudden_movement,Sudden movement detected: 155.6px displacement,medium,ongoing,0
+2025-09-28 04:03:40,no_face_detected,No face detected for 3.0 seconds,high,resolved,20
+2025-09-28 04:03:43,no_face_detected,No face detected for 3.0 seconds,high,resolved,17
+2025-09-28 04:03:46,no_face_detected,No face detected for 3.0 seconds,high,resolved,14
+2025-09-28 04:03:49,no_face_detected,No face detected for 3.0 seconds,high,resolved,11
+2025-09-28 04:03:52,no_face_detected,No face detected for 3.0 seconds,high,resolved,8
+2025-09-28 04:03:55,no_face_detected,No face detected for 3.0 seconds,high,resolved,5
+2025-09-28 04:03:58,no_face_detected,No face detected for 3.0 seconds,high,resolved,2
+2025-09-28 04:04:00,sudden_movement,Sudden movement detected: 223.6px displacement,medium,ongoing,0
+2025-09-28 04:04:08,no_face_detected,No face detected for 3.0 seconds,high,resolved,0
+2025-09-28 04:04:08,sudden_movement,Sudden movement detected: 88.8px displacement,medium,ongoing,0
+2025-09-28 04:04:12,no_face_detected,No face detected for 3.0 seconds,high,resolved,3
+2025-09-28 04:04:15,no_face_detected,No face detected for 3.0 seconds,high,resolved,0
+2025-09-28 04:04:17,sudden_movement,Sudden movement detected: 108.9px displacement,medium,ongoing,0
+2025-09-28 04:04:17,sudden_movement,Sudden movement detected: 208.2px displacement,medium,ongoing,0
+2025-09-28 04:04:19,sudden_movement,Sudden movement detected: 64.8px displacement,medium,ongoing,0
+2025-09-28 04:04:21,sudden_movement,Sudden movement detected: 181.7px displacement,medium,ongoing,0
+2025-09-28 04:04:21,sudden_movement,Sudden movement detected: 182.6px displacement,medium,ongoing,0
+2025-09-28 04:04:22,sudden_movement,Sudden movement detected: 181.7px displacement,medium,ongoing,0
+2025-09-28 04:04:22,sudden_movement,Sudden movement detected: 148.9px displacement,medium,ongoing,0
+2025-09-28 04:04:22,sudden_movement,Sudden movement detected: 156.5px displacement,medium,ongoing,0
+2025-09-28 04:04:22,sudden_movement,Sudden movement detected: 153.0px displacement,medium,ongoing,0
+2025-09-28 04:04:23,sudden_movement,Sudden movement detected: 323.5px displacement,medium,ongoing,0
+2025-09-28 04:04:23,sudden_movement,Sudden movement detected: 170.7px displacement,medium,ongoing,0
+2025-09-28 04:04:23,sudden_movement,Sudden movement detected: 247.5px displacement,medium,ongoing,0
+2025-09-28 04:04:24,sudden_movement,Sudden movement detected: 68.9px displacement,medium,ongoing,0
+2025-09-28 04:04:25,sudden_movement,Sudden movement detected: 68.3px displacement,medium,ongoing,0
+2025-09-28 04:04:50,no_face_detected,No face detected for 3.1 seconds,high,resolved,1
+2025-09-28 04:05:40,no_face_detected,No face detected for 3.1 seconds,high,resolved,3
+2025-09-28 04:05:43,no_face_detected,No face detected for 3.0 seconds,high,resolved,0
+2025-09-28 04:05:43,sudden_movement,Sudden movement detected: 238.4px displacement,medium,ongoing,0
+2025-09-28 04:05:48,no_face_detected,No face detected for 3.1 seconds,high,resolved,10
+2025-09-28 04:05:51,no_face_detected,No face detected for 3.0 seconds,high,resolved,7
+2025-09-28 04:05:54,no_face_detected,No face detected for 3.0 seconds,high,resolved,4
+2025-09-28 04:05:57,no_face_detected,No face detected for 3.0 seconds,high,resolved,1
+2025-09-28 04:05:58,sudden_movement,Sudden movement detected: 194.2px displacement,medium,ongoing,0
+2025-09-28 04:06:06,no_face_detected,No face detected for 3.0 seconds,high,resolved,3
+2025-09-28 04:06:09,sudden_movement,Sudden movement detected: 203.0px displacement,medium,ongoing,0
+2025-09-28 04:06:13,no_face_detected,No face detected for 3.1 seconds,high,resolved,9
+2025-09-28 04:06:16,no_face_detected,No face detected for 3.0 seconds,high,resolved,6
+2025-09-28 04:06:19,no_face_detected,No face detected for 3.0 seconds,high,resolved,3
+2025-09-28 04:06:22,no_face_detected,No face detected for 3.0 seconds,high,resolved,0
+2025-09-28 04:06:22,sudden_movement,Sudden movement detected: 212.8px displacement,medium,ongoing,0
+2025-09-28 04:06:29,sudden_movement,Sudden movement detected: 91.0px displacement,medium,ongoing,0
+2025-09-28 04:06:35,no_face_detected,No face detected for 3.1 seconds,high,resolved,2
+2025-09-28 04:06:47,sudden_movement,Sudden movement detected: 73.5px displacement,medium,ongoing,0
+2025-09-28 04:07:03,no_face_detected,No face detected for 3.0 seconds,high,resolved,3
